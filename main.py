@@ -12,7 +12,7 @@ location = geocoder.description_for_number(pepnumber, "pt")
 print(location)
 service_pro = phonenumbers.parse(number)
 print(carrier.name_for_number(service_pro, "pt"))
-key = '  ' #Go to open cage site  and take an API its free here the link https://opencagedata.com/ ^^
+key = '  ' #Go to open cage site  and take an API key its free here the link https://opencagedata.com/ ^^
 geocoder = OpenCageGeocode(key)
 query = str(location)
 results = geocoder.geocode(query)
